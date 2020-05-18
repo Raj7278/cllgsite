@@ -1,0 +1,120 @@
+ <html>
+ <head>
+  <title>
+       form </title>
+<style>
+#demo
+{
+width: 60 px ; 
+ color: violetblue;
+margin:30px;
+}
+#demo1
+{
+color:black;
+width:500px;
+height:700px;
+font:left;
+background-color:lightgrey;
+//padding:30px; 
+border-style:groove;
+border-width:3px;
+}
+body
+{
+background-image:url("vit v.jpg");
+background-size:cover;
+background-attachment:fixed;
+ 
+background-position: center; 
+background-repeat: no-repeat;
+height:500px;
+
+
+}
+
+</style>
+   </head> 
+  <body> 
+
+<p id="dem"></p>
+<script>
+var date=new Date("12/06/19 12:17");
+document.getElementById("dem").innerHTML=date.toDateString();
+</script>
+  <center>
+  
+  <h1 id="demo"> <u>Registration Form</u> </h1> </center>
+ <marquee><hr> <h2> Wecome to VIT </hr></h2></marquee>
+ <img src="C:\Users\Raj Nandini\Desktop\download.jpg" alt="download" width= "500" height= "500" align= "right">
+     
+<div id="demo1"> 
+   <form action="/action_page.php"> <br><br><br><br>
+First name: <input type="text" name="FirstName" placeholder="enter first name"><br><br>
+Last  name: <input type="text" name="LastName" placeholder="enter  last name"><br><br>
+father name:<input type="text" name="fathername" placeholder="enter the father name"><br><br>
+mother name:<input type"text" name="mother" placeholder="enter the monther name"<br><br><br>
+
+
+
+ Date of Birth: Day
+<select name="DOBDay">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+
+
+</select>
+
+Month
+<select name="DOBMonth">
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="oct">October</option>
+<option value="Nov">November</option>
+<option value="Dec">December</option>
+
+
+</select>
+
+Year
+<select name="DOBYear">
+<option value="1947">1999</option>
+<option value="1948">1998</option>
+<option value="1949">1997</option>
+<option value="1950">1995</option>
+<option value="1951">1994</option>
+
+
+</select> <br><br> 
+ Gender: <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other<br><br>
+ Qualification : 
+ <input type="radio" name= "pg" value= "M.C.A"> MCA 
+ <input type="radio" name= "pg" value= "M.Tech"> M.Tech
+ <input type="radio" name= "pg" value= "M.B.A"> MBA <br><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+    
+    </body>
+   
+   </html>
